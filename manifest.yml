@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/holtover01/spiceworld.git
+  host: helloworld-html-ianoverholt
+  name: helloworld-html
+  memory: 64M
+  stack: cflinuxfs2
